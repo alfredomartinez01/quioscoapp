@@ -2,7 +2,7 @@ import Layout from "../layout/Layout"
 import useQuiosco from "../hooks/useQuiosco"
 import ResumenProducto from "../components/ResumenProducto";
 
-export default function resumen() {
+export default function Resumen() {
 
     const { pedidos } = useQuiosco()
   return (

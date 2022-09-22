@@ -3,7 +3,7 @@ import Layout from "../layout/Layout"
 import useQuiosco from "../hooks/useQuiosco"
 import { formatearDinero } from '../helpers'
 
-export default function total() {
+export default function Total() {
 
   const { pedidos, nombre, setNombre, colocarOrden, total } = useQuiosco()
 
